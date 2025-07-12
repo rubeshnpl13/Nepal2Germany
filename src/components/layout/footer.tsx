@@ -86,7 +86,7 @@ export function Footer() {
               </Button>
               <Button asChild variant="ghost" size="icon">
                 <a
-                  href="https://wa.me/+97797045550092"
+                  href="https://wa.me/9779704550092?text=Hi!%20I%20want%20to%20know%20more%20about%20studying%20in%20Germany."
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"

@@ -195,7 +195,7 @@ export default function ContactPage() {
                   className="w-full font-semibold mt-2 bg-[#25D366] hover:bg-[#1ebe5b] text-black"
                 >
                   <a
-                    href="https://wa.me/97045550092"
+                    href="https://wa.me/9779704550092?text=Hi!%20I%20want%20to%20know%20more%20about%20studying%20in%20Germany."
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
