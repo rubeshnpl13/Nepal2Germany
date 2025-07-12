@@ -1,32 +1,44 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BookOpenCheck, FileText, ListChecks, School, CheckSquare, HelpCircle } from 'lucide-react';
+import {
+  ArrowRight,
+  BookOpenCheck,
+  FileText,
+  ListChecks,
+  School,
+  CheckSquare,
+  HelpCircle,
+} from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/images/home/logo.png'
-import second from '@/images/home/second.png'
+import logo from '@/images/home/logo.png';
+import second from '@/images/home/second.png';
 //import second3 from '@/images/home/second3.png'
 
 const processSteps = [
   {
     icon: <School className="h-8 w-8 text-primary" />,
     title: 'University & Course Selection',
-    description: 'Find the right university and master’s program that fits your academic and career goals.',
+    description:
+      'Find the right university and master’s program that fits your academic and career goals.',
   },
   {
     icon: <FileText className="h-8 w-8 text-primary" />,
     title: 'Document Preparation',
-    description: 'Gather all necessary documents, including transcripts, SOP, LORs, and language certificates.',
+    description:
+      'Gather all necessary documents, including transcripts, SOP, LORs, and language certificates.',
   },
   {
     icon: <BookOpenCheck className="h-8 w-8 text-primary" />,
     title: 'Application Submission',
-    description: 'Navigate the application process through Uni-Assist or directly to the universities.',
+    description:
+      'Navigate the application process through Uni-Assist or directly to the universities.',
   },
   {
     icon: <ListChecks className="h-8 w-8 text-primary" />,
     title: 'Visa & Enrollment',
-    description: 'Secure your student visa and complete the enrollment process to start your journey.',
+    description:
+      'Secure your student visa and complete the enrollment process to start your journey.',
   },
 ];
 
@@ -40,7 +52,8 @@ export default function Home() {
               Your Bridge to German Universities
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              A complete guide for Nepali students aspiring to pursue a degree in Germany. I'm here to simplify the path from Nepal to Germany.
+              A complete guide for Nepali students aspiring to pursue a degree
+              in Germany. I'm here to simplify the path from Nepal to Germany.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center md:justify-start">
               <Button asChild size="lg" className="font-semibold">
@@ -48,8 +61,13 @@ export default function Home() {
                   Explore the Process <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="font-semibold">
-                <Link href="/resources">Get Checklists</Link>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="font-semibold"
+              >
+                <Link href="/summer-2026-intake">Summer 2026 Timeline</Link>
               </Button>
             </div>
           </div>
@@ -73,15 +91,21 @@ export default function Home() {
               The Application Journey
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Follow our step-by-step guide to make your application process smooth and successful.
+              Follow our step-by-step guide to make your application process
+              smooth and successful.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {processSteps.map((step, index) => (
-              <Card key={index} className="transform-gpu transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
+              <Card
+                key={index}
+                className="transform-gpu transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl"
+              >
                 <CardHeader className="flex flex-col items-center text-center gap-4">
                   {step.icon}
-                  <CardTitle className="font-headline text-xl font-semibold">{step.title}</CardTitle>
+                  <CardTitle className="font-headline text-xl font-semibold">
+                    {step.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="text-center text-muted-foreground">
                   <p>{step.description}</p>
@@ -110,7 +134,8 @@ export default function Home() {
                 Everything You Need in One Place
               </h2>
               <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-                From eligibility criteria to downloadable templates, we've got you covered.
+                From eligibility criteria to downloadable templates, we've got
+                you covered.
               </p>
             </div>
             <ul className="space-y-4">
@@ -119,8 +144,13 @@ export default function Home() {
                   <CheckSquare className="h-4 w-4" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Detailed Requirements</h3>
-                  <p className="text-muted-foreground">Understand eligibility, language tests (IELTS/TOEFL/German), and required documents.</p>
+                  <h3 className="font-semibold text-lg">
+                    Detailed Requirements
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Understand eligibility, language tests (IELTS/TOEFL/German),
+                    and required documents.
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -129,7 +159,10 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Free Resources</h3>
-                  <p className="text-muted-foreground">Download our free checklists, SOP/LOR templates, and other essential resources.</p>
+                  <p className="text-muted-foreground">
+                    Download our free checklists, SOP/LOR templates, and other
+                    essential resources.
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -138,7 +171,10 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Comprehensive FAQ</h3>
-                  <p className="text-muted-foreground">Get answers to common questions about visas, blocked accounts, and Uni-Assist.</p>
+                  <p className="text-muted-foreground">
+                    Get answers to common questions about visas, blocked
+                    accounts, and Uni-Assist.
+                  </p>
                 </div>
               </li>
             </ul>
@@ -148,9 +184,12 @@ export default function Home() {
 
       <section className="py-16 md:py-24 text-center">
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="font-headline text-3xl font-bold tracking-tighter text-foreground sm:text-4xl">Ready to Start Your Journey?</h2>
+          <h2 className="font-headline text-3xl font-bold tracking-tighter text-foreground sm:text-4xl">
+            Ready to Start Your Journey?
+          </h2>
           <p className="mt-4 max-w-xl mx-auto text-lg text-muted-foreground">
-            Explore our detailed guides and resources to take the first step towards your study  in Germany.
+            Explore our detailed guides and resources to take the first step
+            towards your study in Germany.
           </p>
           <div className="mt-8">
             <Button asChild size="lg" className="font-semibold">

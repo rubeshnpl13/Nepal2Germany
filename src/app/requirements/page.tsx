@@ -16,16 +16,16 @@ export default function RequirementsPage() {
         </div>
 
         <Tabs defaultValue="eligibility" className="mx-auto max-w-4xl">
-          <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3">
-            <TabsTrigger value="eligibility">
+          <TabsList className="flex flex-wrap w-full justify-center sm:grid sm:grid-cols-3 gap-2 sm:gap-0">
+ <TabsTrigger value="eligibility" className="flex-1 sm:w-full">
               <CheckCircle2 className="mr-2 h-4 w-4" /> Eligibility
             </TabsTrigger>
-            <TabsTrigger value="language">
+ <TabsTrigger value="language" className="flex-1 sm:w-full">
               <Languages className="mr-2 h-4 w-4" /> Language Tests
             </TabsTrigger>
-            <TabsTrigger value="documents">
+ <TabsTrigger value="documents" className="flex-1 sm:w-full">
               <FileText className="mr-2 h-4 w-4" /> Documents
-            </TabsTrigger>
+ </TabsTrigger>
           </TabsList>
           
           <TabsContent value="eligibility" className="mt-6">

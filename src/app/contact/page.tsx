@@ -195,7 +195,7 @@ export default function ContactPage() {
                   className="w-full font-semibold mt-2 bg-[#25D366] hover:bg-[#1ebe5b] text-black"
                 >
                   <a
-                    href="https://wa.me/+97797045550092"
+                    href="https://wa.me/97045550092"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
