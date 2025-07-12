@@ -25,7 +25,7 @@ export const posts: Post[] = [
       'Why is Germany Better Than the US, UK, Australia, and Canada for Student?',
     excerpt:
       'Germany offers top-quality education with low costs, strong job prospects, and faster PR—making it the smartest choice for Nepali students. Discover how it outshines the US, UK, Australia, and Canada.',
-    date: 'June 26, 2024',
+    date: 'July 10, 2025',
     author: '',
     image: blog1,
     dataAiHint: 'introductory article',
@@ -130,7 +130,7 @@ export const posts: Post[] = [
       'The Truth About Education Consultancies in Nepal: Are They Fooling Students About Studying in Germany?',
     excerpt:
       'Many consultancies in Nepal are charging lakhs in fees, sending students to costly private universities in Germany while earning big commissions. Here’s what you need to know..',
-    date: 'July 30, 2024',
+    date: 'July 3, 2025',
     author: '',
     image: blog5,
     dataAiHint: 'opinion and awareness article',
@@ -257,7 +257,7 @@ export const posts: Post[] = [
     title: 'Step-by-Step Guide to Study in Germany from Nepal (2025 Edition)',
     excerpt:
       'From choosing universities to getting your student visa — here’s the ultimate 2025 guide for Nepali students who want to study in Germany.',
-    date: 'June 27, 2024',
+    date: 'June 27, 2025',
     author: '',
     image: blog2,
     dataAiHint: 'practical guide',
@@ -343,7 +343,7 @@ export const posts: Post[] = [
       'Top 10 Mistakes Nepali Students Make When Applying to Study in Germany — And How to Avoid Them',
     excerpt:
       'Avoid these costly mistakes Nepali students often make when applying to German universities. Learn how to save time, money, and your future!.',
-    date: 'July 30, 2024',
+    date: 'June 15, 2025',
     author: '',
     image: blog6,
     dataAiHint: 'checklist and warning article',
@@ -407,7 +407,7 @@ export const posts: Post[] = [
       'How Much Does It Really Cost to Study in Germany as a Nepali Student?',
     excerpt:
       'Understand the complete financial picture — from tuition and living costs to insurance and part-time job income — before moving to Germany as a Nepali student.',
-    date: 'July 30, 2024',
+    date: 'June 3, 2025',
     author: '',
     image: blog3,
     dataAiHint: 'cost breakdown article',
@@ -525,7 +525,7 @@ export const posts: Post[] = [
       'Blocked Account vs Fintiba vs Expatrio: Which Is Best for Nepali Students Going to Germany?',
     excerpt:
       'Choosing between Fintiba, Expatrio, or a traditional bank? Here’s a clear comparison to help Nepali students decide the best blocked account provider for studying in Germany.',
-    date: 'May 23, 2024',
+    date: 'May 23, 2025',
     author: '',
     image: blog4,
     dataAiHint: 'comparison article',
@@ -611,7 +611,7 @@ export const posts: Post[] = [
       'Is Learning German Necessary to Study in Germany? Here’s the Real Answer',
     excerpt:
       'You can study in Germany in English, but learning basic German is still a smart move. Here’s why A1–A2 level can make your life and career easier.',
-    date: 'May 23, 2024',
+    date: 'May 12, 2024',
     author: '',
     image: blog8,
     dataAiHint: 'language advice article',
